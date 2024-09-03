@@ -7,7 +7,7 @@ def search_volume_level(volume):
         return 'too low'
 
 def difficulty_level(difficulty):
-    if difficulty <= 31:
+    if difficulty <= 30:
         return 'easy'
     elif difficulty <=60:
         return 'medium'
